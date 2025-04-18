@@ -1,7 +1,7 @@
 00100 (*+02() (*$T-*) (*$D+*) (*$W-*) (*$L-*) ()+02*)
 00105 PROGRAM COMPARE(F1,F2,INIT(*+02(),OUTPUT()+02*));
 00110 CONST SZWORD = (*+12() 2 ()+12*) (*+13() 4 ()+13*);
-00112       HOFFSET = (*-02() 4 ()-02*) (*+02() (*+19() 6 ()+19*) (*-19() 8 ()-19*) ()+02*)
+00112       HOFFSET = (*-02() 4 ()-02*) (*+02() (*+19() 6 ()+19*) (*-19() 8 ()-19*) ()+02*);
 00113 (*    HOFFSET IS THE AMOUNT THE HEAP HAS BEEN MOVED UP *)
 00120 TYPE ADDRINT = (*-02()INTEGER()-02*)(*+02()LONG()+02*);
 00130      LOADFILE = FILE OF ADDRINT;
